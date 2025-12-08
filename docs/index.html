@@ -811,36 +811,44 @@ td, th {
 </p>
 <p>MACRO ECONOMY: GDP, Inflation, Import &amp; Export, International Trade, Foreign Exchange, Money Quantity, Unemployment,</p>
 <p>Goods Market (Production, Lager), Capital Market (Savings, Investments), Labor Market (Employment, Population Structure), Price vs.&nbsp;Value, Demand vs.&nbsp;Supply, Access to Resources, Trade &amp; International Contracts</p>
-<p><span id="eq-bipsupply"><span class="math display">\[\begin{split} &amp;
-Supply = C + S + T + M = E
+<p>Supply:</p>
+<p><span id="eq-gdpsupply"><span class="math display">\[\begin{split} &amp;
+E = C + S + T + M - X
 \end{split} \tag{9}\]</span></span></p>
 <p><span id="eq-ecoincome"><span class="math display">\[\begin{split} &amp;
-E = W + E_B + E_P + E_H + E_N + T_B + E_G - Z_F + E_A
+E = W  + E_P + E_B + T_B + E_G - Z_G
 \end{split} \tag{10}\]</span></span></p>
-<p><span id="eq-bipdemand"><span class="math display">\[\begin{split} &amp;
-Demand = C + I + G + X = V_I
+<p>Demand:</p>
+<p><span id="eq-gdpdemand"><span class="math display">\[\begin{split} &amp;
+V_I = C + I + G + X - M
 \end{split} \tag{11}\]</span></span></p>
-<p><span id="eq-bipprod"><span class="math display">\[\begin{split} &amp;
-V_I = C + G + A + I_L + X - M
-\end{split} \tag{12}\]</span></span></p>
+<p>Equilibrium:</p>
 <p><span id="eq-ecoequi"><span class="math display">\[\begin{split} &amp;
-Equilibrium: E = V_I       \\&amp;
+E = V_I       \\&amp;
 W - C = S = I        \\&amp;
 C + S = W        \\&amp;
 C + I = R
+\end{split} \tag{12}\]</span></span></p>
+<p>Domestic Production &amp; International Trade:</p>
+<p><span id="eq-gdp"><span class="math display">\[\begin{split} &amp;
+V_S = E + T - B + D
 \end{split} \tag{13}\]</span></span></p>
-<p><span id="eq-bsp"><span class="math display">\[\begin{split} &amp;
-E + T_i - B + D = V_S
-\end{split} \tag{14}\]</span></span></p>
-<p><span id="eq-bip"><span class="math display">\[\begin{split} &amp;
+<p><span id="eq-gdp"><span class="math display">\[\begin{split} &amp;
 V_S = V_I + E_M - E_X
+\end{split} \tag{14}\]</span></span></p>
+<p><span id="eq-nnpnsp"><span class="math display">\[\begin{split} &amp;
+V_N = V_S - D
 \end{split} \tag{15}\]</span></span></p>
-<p><span id="eq-nsp"><span class="math display">\[\begin{split} &amp;
-V_S - D = V_N = E + T_i - S
+<p><span id="eq-nnp"><span class="math display">\[\begin{split} &amp;
+V_N = E + T - B
 \end{split} \tag{16}\]</span></span></p>
+<p>Productivity &amp; Monetary Value:</p>
 <p><span id="eq-moneyquant"><span class="math display">\[\begin{split} &amp;
 P \cdot V_I = U \cdot Q
 \end{split} \tag{17}\]</span></span></p>
+<p><br>
+<br>
+</p>
 <p>Conjecture of <a href="#eq-moneyquant" class="quarto-xref">Equation&nbsp;17</a> and <a href="#eq-workthermal" class="quarto-xref">Equation&nbsp;6</a></p>
 <details>
 <summary>
@@ -853,77 +861,59 @@ td, th {
 </style>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
+<col style="width: 100%">
 </colgroup>
 <tbody>
 <tr class="odd">
 <td><span class="math inline">\(C =\)</span> Consumption of Private Households</td>
-<td><span class="math inline">\(S =\)</span> Savings</td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(I =\)</span> Investments</td>
-<td><span class="math inline">\(T =\)</span> Taxes</td>
+<td>$ =$ …</td>
 </tr>
 <tr class="odd">
 <td><span class="math inline">\(M =\)</span> Import of Goods and Services</td>
-<td><span class="math inline">\(G =\)</span> Governent Expenses</td>
 </tr>
 <tr class="even">
 <td><span class="math inline">\(X =\)</span> Export of Goods and Services</td>
-<td><span class="math inline">\(E =\)</span> Income of total Economy/Society (Volkseinkommen)</td>
 </tr>
 <tr class="odd">
-<td><span class="math inline">\(T_i =\)</span> indirect Taxes</td>
-<td><span class="math inline">\(B =\)</span> Subsadiaries (Subvention)</td>
+<td>$ =$ …</td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(D =\)</span> Depreciations (Ersatzinvestitionen)</td>
-<td><span class="math inline">\(V_N =\)</span> Net Society Production of total Economy (NSP)</td>
+<td><span class="math inline">\(D =\)</span> Depreciations (Reinvestments)</td>
 </tr>
 <tr class="odd">
-<td><span class="math inline">\(Q =\)</span> Money Quantity, “Mass <span class="math inline">\(m \cdot c_0\)</span>”</td>
-<td><span class="math inline">\(U =\)</span> Money Turnover Velocity (Umlaufgeschwindikeit), “Temperature T”</td>
+<td><span class="math inline">\(Q =\)</span> Money Quantity</td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(V_I =\)</span> Gross Domestic Product GDP = <span class="math inline">\(\frac{Output}{Input}\)</span>, “Volume V” (Handelsvoluemn = BIP)</td>
-<td><span class="math inline">\(P =\)</span> Preisniveau (Inflation adjusted Value), “Pressure P”</td>
+<td><span class="math inline">\(V_I =\)</span> Gross Domestic Product GDP = <span class="math inline">\(\frac{Output}{Input}\)</span>, Tradevolume</td>
 </tr>
 <tr class="odd">
 <td><span class="math inline">\(W =\)</span> Wages (Salaries, …)</td>
-<td><span class="math inline">\(E_R =\)</span> Earnings, Gains, Yields, Profits, Returns</td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(E_B =\)</span> Income of priv. Companies/Budiness/Services</td>
-<td><span class="math inline">\(E_P =\)</span> Income of priv. Capital (Interests, Coupons, Dividends, … of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)</td>
+<td><span class="math inline">\(E_B =\)</span> Income of priv. Business (Companies, Services, Real Estate Rentals, Thesaurated Gains)</td>
 </tr>
 <tr class="odd">
-<td><span class="math inline">\(E_H =\)</span> Income of Real Estate (Interests of Rental Loans, Houses/Buildings)</td>
-<td><span class="math inline">\(E_N =\)</span> Non Distributed Income of priv. Companies/Business</td>
+<td>$ =$ …</td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(T_B =\)</span> direct Tax frm Capital of Companies/Business</td>
-<td><span class="math inline">\(E_G =\)</span> Income of Governmental Assets and Services</td>
+<td><span class="math inline">\(T_B =\)</span> Tax on Capital of Comapies (Business Assets)</td>
 </tr>
 <tr class="odd">
-<td><span class="math inline">\(Z_F =\)</span> Interests of Governmental Deficit</td>
-<td><span class="math inline">\(E_A =\)</span> Income of Social Insurence Capital/Assets and Services</td>
+<td><span class="math inline">\(Z_G =\)</span> Interests on Governmental Debt</td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(V_S =\)</span> Butto Sozial Produkt (BSP)</td>
-<td><span class="math inline">\(A =\)</span> Social Expenses</td>
+<td><span class="math inline">\(V_S =\)</span> Gross National Produkt, Society GNP</td>
 </tr>
 <tr class="odd">
-<td><span class="math inline">\(I_L =\)</span> Assets Investments and Storage Change</td>
-<td><span class="math inline">\(R_M =\)</span> Capital Earnings and Wages from Abroad</td>
+<td><span class="math inline">\(I =\)</span> Investments on Assets, incl.&nbsp;Storage Change</td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(R_X\)</span> Capital Earnings and Wages to Abroad</td>
-<td>…</td>
+<td><span class="math inline">\(E_X\)</span> Capital Earnings and Wages to Abroad</td>
 </tr>
 <tr class="odd">
 <td>…</td>
-<td></td>
 </tr>
 </tbody>
 </table>
