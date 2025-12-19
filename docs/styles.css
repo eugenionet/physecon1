@@ -22,3 +22,8 @@ h2 {
       border: none;
 }
    
+
+ul { 
+      list-style: none;
+      color: none;
+}
