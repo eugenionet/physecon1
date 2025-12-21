@@ -633,38 +633,6 @@ Table&nbsp;1: Modelling Functions
 <p><br>
 <br>
 Linear optimization to achieve target states “<span class="math inline">\(z, h\)</span>”:</p>
-<ol type="1">
-<li><p>Oneness situaiton modelling:</p>
-<p>minimize efforts = <span class="math inline">\(z\)</span> or maximizie return = <span class="math inline">\(z\)</span></p></li>
-</ol>
-<p><span id="eq-situationopt"><span class="math display">\[\begin{split} &amp;
-\text{target:}            \hphantom{min.nstraints:}     z = c^T \cdot x \\&amp;
-\text{min. constraints:}  \hphantom{max.}               \left[ a_{ki} \right] \cdot x \ge b   \\&amp;
-\text{max. constraints:}  \hphantom{min.}               \left[ a_{ki} \right] \cdot x \le b   \\&amp;
-\text{condition:}         \hphantom{max.raints:}        x \ge 0   \\&amp;
-\end{split} \tag{1}\]</span></span></p>
-<ol start="2" type="1">
-<li><p>Duality situation modelling:</p>
-<p>minimize efforts = <span class="math inline">\(z\)</span> and maximize return = <span class="math inline">\(h\)</span></p></li>
-</ol>
-<p><span id="eq-situationdual"><span class="math display">\[\begin{split} &amp;
-\text{target min.:}         \hphantom{ andints:}      z = c^T \cdot x     \\&amp;
-\text{min. constraints:}    \hphantom{ and}           \left[ a_{ki} \right] \cdot x \ge b   \\&amp;
-\text{condition:}           \hphantom{ andraints:}    x \ge 0       \\&amp;
-\textit{ and}    \\&amp;
-\text{target max.:}         \hphantom{ andints:}      h = b^T \cdot y \\&amp;
-\text{max. constraints:}    \hphantom{ and}           \left[ a_{ki} \right]^T \cdot y \le c   \\&amp;
-\text{condition:}           \hphantom{ andraints:}    y \ge 0         \\&amp;
-\end{split} \tag{2}\]</span></span></p>
-<ol start="3" type="1">
-<li>Normalization:</li>
-</ol>
-<p><span id="eq-optnorm"><span class="math display">\[\begin{split} &amp;
-\text{target:}              \hphantom{min.nstraints:}      z = c^T \cdot x \\&amp;
-\text{min. constraints:}    \hphantom{max.}    \left( \left[ a_{ki} \right] - x_{n+k} \right) \cdot x = b   \\&amp;
-\text{max. constraints:}    \hphantom{min.}    \left( \left[ a_{ki} \right] + x_{n+k} \right) \cdot x = b   \\&amp;
-\text{condition:}           \hphantom{max.raints:}    x \ge 0       \\&amp;
-\end{split} \tag{3}\]</span></span></p>
 <ol start="4" type="1">
 <li>Solution with <a href="https://cbom.atozmath.com/CBOM/Simplex.aspx?q=sm">Simplex algorithm</a></li>
 </ol>
