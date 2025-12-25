@@ -7,7 +7,7 @@
     "text": "WORKING NOTES DRAFT",
     "crumbs": [
       "Home",
-      "Topics",
+      "Projects",
       "PhysEcon"
     ]
   },
@@ -19,7 +19,7 @@
     "text": "10.1 Acronyms of Physics: Chapter 4\n\n\n\n\n\n\n\n\\(A =\\) Action\n\\(E = E_{kin} + E_{pot} =\\) total energy\n\n\n\\(t =\\) time\n\\(r =\\) dpace (distance between two points, one-dimensional length)\n\n\n\\(v =\\) velocity\n\\(c =\\) light speed\n\n\n\\(p =\\) momentum\n\\(F =\\) force\n\n\n\\(I =\\) inertia\n\\(\\mathcal{L} =\\) Lagrangian\n\n\n\\(\\mathcal{H} =\\) Hamiltonian\n\\(\\mathcal{K} =\\) kinetic Energy\n\n\n\\(\\mathcal{U} =\\) effective potential Energy (\\(\\in E_{pot}\\))\n\\(\\mathcal{V} =\\) potential Energy (\\(\\in E_{pot}\\))\n\n\n\\(\\mathcal{Z} = \\frac{1}{2}\\frac{L_0^2}{mr^2} =\\) Centrifugal Potential\n\\(V = r_1 \\cdot r_2 \\cdot r_3 =\\) Volume\n\n\n\\(\\mathcal{k} =\\) Wave Vector (“curvature”)\n\\(W =\\) Work (done vs. received)\n\n\n\\(P =\\) Pressure\n\\(L_0 =\\) angular momentum\n\n\n\\(T =\\) endogen Temperature\n\\(H =\\) exogen Heat\n\n\n\\(U =\\) endogen Energy (\\(E_{kin} + E_{pot}\\))\n\\(\\Phi = \\frac{\\mathcal{V}}{q} =\\) Electric Potential\n\n\n\\(\\mathcal{A} =\\) Magnetic Potential\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(g_0 =\\) Gas constant\n\\(m =\\) mass\n\n\n\\(q =\\) charge\n$\\(n =\\) amount of objectes (particles density \\(n=\\frac{N}{V}\\)), \\(n=2\\) and \\(f=1\\)\n\n\n\\({\\epsilon}_0 =\\) electric constant\n\\(f = 3n \\pm z =\\) degrees of freedom, \\(f=1\\) and \\(n=2\\)\n\n\n\\({\\mu}_0 =\\) magnetic constant\n\\(\\mathcal{B} =\\) Magnetic Field\n\n\n\\(\\mathcal{E} =\\) Electric Field\nH\\(\\mathcal{C} = m \\cdot c_0 = \\frac{\\Delta H}{\\Delta T}  =\\) heat capacity\n\n\n\\(c_0 = \\frac{1}{m}\\frac{\\Delta H}{\\Delta T} =\\) specific heat\n\\(S = b_0 \\cdot \\ln(\\Omega) =\\) Entropy (macro state)\n\n\n\\(l =\\) Moll quantity\n\\(\\Omega =\\) micro states\n\n\n\\(z =\\) amount of constraints (boundry conditions)\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(\\kappa = \\frac{c_P}{c_V} = \\frac{f+2}{f} =\\) adiabaty\n\\(\\iota = \\kappa\\) ↔︎ adiabat\n\n\n\\(\\iota = 0\\) ↔︎ isobar\n\\(\\iota = 1\\) ↔︎ isotherm\n\n\n\\(\\iota = \\infty\\) ↔︎ isochor\n…\n\n\n…\n…",
     "crumbs": [
       "Home",
-      "Topics",
+      "Projects",
       "PhysEcon"
     ]
   },
@@ -31,7 +31,7 @@
     "text": "10.2 Acronyms of Economy: Chapter 8\n\n\n\n\n\n\n\n\\(T =\\) Taxes\n\\(M =\\) Import of Goods and Services from foreing symstes\n\n\n\\(G =\\) Governent Expenses, incl. Social Insurances\n\\(X =\\) Export of Goods and Services to foreign system\n\n\n\\(Y =\\) Income of Economy from Turnover\n\\(G_A =\\) Governental Subsidies\n\n\n\\(D_A =\\) Depreciations (Reinvestments) on Assets\n\\(V_N =\\) Net Naötional Production, Society NNP\n\n\n\\(N =\\) Monetary Quantity\n\\(Q =\\) Monetary Turnover Velocity\n\n\n\\(V_I =\\) Gross Domestic Product GDP = \\(\\frac{Output}{Input}\\), Tradevolume\n\\(P =\\) Price niveau (Inflation adjusted Value)\n\n\n\\(L =\\) Wages from Labor Work (Salaries, …)\n\\(R =\\) Returns, Earnings, Gains\n\n\n\\(Y_A =\\) Income of priv. Business Households (Companies, Services, Real Estate Rentals, Retained Profits)\n\\(Y_H =\\) Income from priv. Capital Households (Interests, Coupons, Dividends, … of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)\n\n\n\\(T_A=\\) Tax on Capital of Corprate Compaies (Business Assets)\n\\(Y_G =\\) Governmental Income from Assets, Services, Social Institutions/Insurances\n\n\n\\(Z_G =\\) Interests on Governmental Debt\n\\(V_S =\\) Gross National Produkt, Society GNP\n\n\n\\(I =\\) Investments on Assets, incl. Storage Change\n\\(R_M =\\) Capital Earnings and Wages from Abroad (from Foreign System)\n\n\n\\(R_X\\) Capital Earnings and Wages to Abroad (to Foreign System)\n\\(W =\\) Expensens, costs from human and machinary work efforts\n\n\n\n\n\n\nsee also [1]",
     "crumbs": [
       "Home",
-      "Topics",
+      "Projects",
       "PhysEcon"
     ]
   },
@@ -80,7 +80,7 @@
     "href": "Content/finestructure.html",
     "title": "PHYSECON",
     "section": "",
-    "text": "Inity and Finess of the World - The “Fine Structure”\n\\[\\begin{split} &\n\\frac{1}{ c \\epsilon_{0} } =\nc \\mu_{0} \\qquad\n\\frac{1}{c^2} =\n\\epsilon_{0} \\mu_{0}\n\\end{split} \\tag{1}\\]\n\\[\n\\mathfrak{f} =\n\\frac{1}{4\\pi \\epsilon_0} \\frac{e^2}{\\hbar c} =\n\\frac{1}{2} \\frac{1}{h} c \\mu_0  e^2 \\approx \\frac{1}{1369...}\n\\]",
+    "text": "Infinity, Finess of the World - The “Fine Structure”\n\\[\\begin{split} &\n\\frac{1}{ c \\epsilon_{0} } =\nc \\mu_{0} \\qquad\n\\frac{1}{c^2} =\n\\epsilon_{0} \\mu_{0}\n\\end{split} \\tag{1}\\]\n\\[\n\\mathfrak{f} =\n\\frac{1}{4\\pi \\epsilon_0} \\frac{e^2}{\\hbar c} =\n\\frac{1}{2} \\frac{1}{h} c \\mu_0  e^2 \\approx \\frac{1}{1369...}\n\\]",
     "crumbs": [
       "Home",
       "Topics",
@@ -207,7 +207,7 @@
     "href": "Content/refraction.html",
     "title": "PHYSECON",
     "section": "",
-    "text": "Refraction for identifying matter (property of matter):\n\\[\\begin{split} &\n\\eta\n\\stackrel{opt.}{=}\n\\frac{sin(\\alpha)}{\\sin(\\beta)} =\n\\frac{\\eta_{\\beta}}{\\eta_{\\alpha}}\n\\stackrel{prism}{=}\n\\frac{ \\sin[\\frac{1}{2}(\\varpi + \\varsigma_{min})] }{ \\sin[\\frac{1}{2}\\varpi ] }\n\\stackrel{phys.}{=}\n\\sqrt{ \\epsilon_r \\mu_r } =\n\\frac{\\lambda_{\\alpha}}{\\lambda_{\\beta}} =\n\\frac{v_{ph,\\alpha}}{v_{ph,\\beta}} =\n\\frac{1}{2} \\frac{\\lambda}{d} \\frac{n}{\\cos(\\beta)} =\n\\sqrt{\\left( \\frac{n}{2} \\frac{\\lambda}{d} \\right)^2 + \\sin(\\alpha)^2}\n\\stackrel{dispersion}{=}\n\\eta(\\lambda) =\n\\eta(\\omega)\n\\stackrel{anisotropy}{=}\n\\eta(r)\n\\end{split} \\tag{1}\\]\n\\[ % \\footnote{Brechkraft}\n\\textnormal{Vacuum } \\iff \\eta=1\n\\newline\nf = Focal Length        \\qquad\nD = Refractive Power (Dioptri)\n\\]\n\\[\nn \\equiv \\textnormal{order (\"Quantum\"): } \\newline\nn =\n\\frac{\\nu}{c} \\Delta s =\n\\frac{\\Delta\\varphi}{2\\pi} =\n2 \\eta \\frac{d}{\\lambda} \\sqrt{\\eta^2 - \\sin(\\alpha)^2} =\n2 \\eta \\frac{d}{\\lambda} \\cos(\\beta) =\n\\frac{q}{e_0}\n\\qquad \\in \\mathbb{N}\n\\]\n\\[\nv^2 =\n\\left( \\frac{\\nu\\lambda}{\\eta} \\right)^2 =\n\\left( \\frac{\\omega}{k \\eta} \\right)^2\n\\]\n\\[\n\\left( \\frac{\\eta}{c} \\right) ^2 =\n\\epsilon \\mu    \\qquad\n\\epsilon = \\epsilon_0 \\epsilon_r    \\qquad\n\\mu = \\mu_0 \\mu_r\n\\]",
+    "text": "Refraction for identifying matter (property of matter):\n\\[\\begin{split} &\n\\eta\n\\stackrel{opt.}{=}\n\\frac{sin(\\alpha)}{\\sin(\\beta)} =\n\\frac{\\eta_{\\beta}}{\\eta_{\\alpha}}\n\\stackrel{prism}{=}\n\\frac{ \\sin[\\frac{1}{2}(\\varpi + \\varsigma_{min})] }{ \\sin[\\frac{1}{2}\\varpi ] }\n\\stackrel{phys.}{=}\n\\sqrt{ \\epsilon_r \\mu_r } =\n\\frac{\\lambda_{\\alpha}}{\\lambda_{\\beta}} =\n\\frac{v_{ph,\\alpha}}{v_{ph,\\beta}} =\n\\frac{1}{2} \\frac{\\lambda}{d} \\frac{n}{\\cos(\\beta)} =\n\\sqrt{\\left( \\frac{n}{2} \\frac{\\lambda}{d} \\right)^2 + \\sin(\\alpha)^2}\n\\stackrel{dispersion}{=}\n\\eta(\\lambda) =\n\\eta(\\omega)\n\\stackrel{anisotropy}{=}\n\\eta(r)\n\\end{split} \\tag{1}\\]\n\\[ % \\footnote{Brechkraft}\n\\textnormal{Vacuum } \\iff \\eta=1\n\\newline\nf = Focal Length        \\qquad\nD = Refractive Power (Dioptri)\n\\]\n\\[\nn \\equiv \\textnormal{order (\"Quantum\"): } \\newline\nn =\n\\frac{\\nu}{c} \\Delta s =\n\\frac{\\Delta\\varphi}{2\\pi} =\n2 \\eta \\frac{d}{\\lambda} \\sqrt{\\eta^2 - \\sin(\\alpha)^2} =\n2 \\eta \\frac{d}{\\lambda} \\cos(\\beta) =\n\\frac{q}{e_0}\n\\qquad \\in \\mathbb{N}\n\\]\n\\[\nv^2 =\n\\left( \\frac{\\nu\\lambda}{\\eta} \\right)^2 =\n\\left( \\frac{\\omega}{k \\eta} \\right)^2\n\\]\n\\[\n\\left( \\frac{\\eta}{c} \\right) ^2 =\n\\epsilon \\mu    \\qquad\n\\epsilon = \\epsilon_0 \\epsilon_r    \\qquad\n\\mu = \\mu_0 \\mu_r\n\\]\nwhere:\n\\(\\alpha \\coloneqq\\) irradiaton angle, incoming radiation direction, from source/sender (Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums)\n\\(\\beta \\coloneqq\\) refraction angle for bented transmitted radiation \\(A_{t}\\) orientation in matter (Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium)\nOrientation of Radiation:\n\n\n\nRadiation\n\n\n\\(\\vartheta =\\) reflection angle for redirected radiation \\(A_{r\\parallel}\\) parallel to \\(\\alpha\\) from matter \n\\(\\theta =\\) diffraction angle for redirected radiation \\(A_{r\\perp}\\) orthogonal to \\(\\alpha\\) from matter \n\\(\\varpi = \\beta_1 + \\beta_2 =\\) angle of converging body surfaces (point tip of prismic medium), spread angle of prism\n\\(\\varsigma =\\) deviation angle of redirected ray beam after refraction (transmission) and diffraction\n\\(u_g =\\) aperture angle (acceptance) from sender source (at distance \\(g\\))\n\\(w_b =\\) inclination angle at observer receiver (at distance \\(b\\))\n\\(\\varepsilon =\\) visual angle from observer/receiver (of eye)",
     "crumbs": [
       "Home",
       "Topics",
@@ -222,7 +222,8 @@
     "text": "Working Notes Draft  UNDER CONSTRUCTION\n\n\n\n\n\n\n\n\nReferences\n\n1. Cockshott WP (2011) Classical Econophysics. Routledge Advances in Experimental; Computable Economics\n\n\n2. Wladyslaw W (2013) Macroeconometric Models, 1st ed. Springer\n\n\n3. Lichtenegger K (2015) Schlüsselkonzepte zur Physik, 1st ed. Springer Spektrum\n\n\n4. Padmanabhan T (2015) Sleeping Beauties in Theoretical Physics, 1st ed. Springer\n\n\n5. Wachter A, Hoeber H (2005) Compendium of Theoretical Physics. Springer\n\n\n6. Carter M (2001) Foundations of Mathematical Economics. The MIT Press\n\n\n7. Michaelides PG (2025) 21 Equations that Shaped the World Economy, 1st ed. Palgrave Macmillan Cham\n\n\n8. Pires da Cruz J (2025) Introduction to the Physics of the Economy and Finance, 1st ed. Springer Cham\n\n\n9. Cass D, Shell K (2014) The Hamiltonian Approach to Dynamic Economics, 1st ed. Elsevier, Academic Press\n\n\n10. Haven E, Khrennikov AI, Robinson T (2017) Quantum Methods in Social Science - A First Course. World Scientific, Publishing Europe Ltd",
     "crumbs": [
       "Home",
-      "Projects"
+      "Topics",
+      "Static, Kinetic, Dynamic"
     ]
   }
 ]
